@@ -1,0 +1,32 @@
+.dateSection {
+  width: 250px;
+  display: flex;
+  gap: 16px;
+}
+
+.date-sub {
+  height: 36px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  border: 2px solid rgb(184, 184, 184);
+  border-radius: 8px;
+}
+
+.dateBox {
+  flex: 1;
+  width: 100px;
+  padding: 15px 8px;
+  display: inline-block;
+  border: none;
+  background-color: white;
+}
+
+.label {
+  color: rgb(137, 137, 137);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 0px 4px;
+  margin: 0 8px;
+  background-color: white;
+}

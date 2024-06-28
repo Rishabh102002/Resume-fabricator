@@ -1,0 +1,76 @@
+.resume{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 520px;
+    background-color: white;
+}
+.resume p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 24px;
+    padding: 24px 40px;
+    background-color: #1CA98E;
+}
+.header p{
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+}
+.header .name{
+    font-size: 32px;
+    color: white;
+    font-weight: 640;
+    margin: 0px;
+}
+
+.Details{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 16px 40px;
+}
+
+
+
+.resume .details-title{
+    background-color: #e9f8f5;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+    margin: 16px 0px;
+}
+
+.contact{
+    background-color: #38514c;
+    display: flex;
+   
+    align-items: center;
+    gap: 24px;
+    margin: auto 0px 0px 0px;
+    padding: 16px 40px;
+}
+
+.contact p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.dates{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 16px 0px;
+    
+}

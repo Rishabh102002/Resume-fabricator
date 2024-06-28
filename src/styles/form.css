@@ -1,0 +1,35 @@
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 40px;
+    border-radius: 8px;
+    gap: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mainTitle{
+    padding-bottom: 8px;
+    font-size: 24px;
+    color: #8a0dd7;
+    font-weight: 650;
+    border-bottom: 2px solid rgb(212, 212, 212);
+}
+
+.buttonSection{
+    display: flex;
+    justify-content: start;
+    margin-top: 8px;
+    gap: 8px;
+}
+button{
+    background-color: #8a0dd7;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
