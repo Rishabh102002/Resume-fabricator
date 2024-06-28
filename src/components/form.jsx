@@ -1,6 +1,6 @@
 import "../styles/form.css";
 
-function Form({ setHandleSubmit, children }) {
+function Form({ setHandleSubmit, children, formData }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     setHandleSubmit(true);
@@ -12,7 +12,6 @@ function Form({ setHandleSubmit, children }) {
       <div className="buttonSection">
         <button type="reset">Reset</button>
         <button type="submit">Create</button>
-        <button type="button">Edit</button>
       </div>
     </form>
   );

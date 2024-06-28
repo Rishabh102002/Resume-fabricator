@@ -27,7 +27,7 @@ function App() {
   console.log("handleSubmit", handleSubmit);
   return (
     <>
-      <Form setHandleSubmit={setHandleSubmit}>
+      <Form setHandleSubmit={setHandleSubmit} formData={formData}>
         <Section title="General Information">
           <Inputfield
             label="Name"
