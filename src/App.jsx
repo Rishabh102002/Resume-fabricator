@@ -85,7 +85,7 @@ function App() {
           <InputDate setState={setFormData} state="workedDate" />
         </Section>
       </Form>
-      <img src="../src/assets/right-arrow.png" height={48} />
+      <img src="../public/assets/right-arrow.png" height={48} />
       {handleSubmit ? (
         <Resume formData={formData} />
       ) : (
